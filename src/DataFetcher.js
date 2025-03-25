@@ -7,7 +7,7 @@ const MyComponent = () => {
 
   // GET request to fetch data
   useEffect(() => {
-    const apiUrl = 'https://your-project-name.up.railway.app/api/your-endpoint/';
+    const apiUrl = 'https://your-railway-app.up.railway.app/api/data/';
 
     axios.get(apiUrl)
       .then(response => {
@@ -20,7 +20,7 @@ const MyComponent = () => {
 
   // POST request to send data to the backend
   const postData = async () => {
-    const apiUrl = 'https://your-project-name.up.railway.app/api/your-endpoint/'; // Replace with your actual API URL
+    const apiUrl = 'https://your-railway-app.up.railway.app/api/data/'; // Replace with your actual API URL
     const postData = { key: 'value' }; // Replace with your data to be sent to the backend
 
     try {

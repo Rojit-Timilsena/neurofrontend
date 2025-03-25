@@ -6,7 +6,7 @@ const MyComponent = () => {
 
   useEffect(() => {
     // Replace this URL with your Railway Django API URL
-    const apiUrl = 'https://your-project-name.up.railway.app/api/your-endpoint/';
+    const apiUrl = 'https://your-railway-app.up.railway.app/api/data/';
     
     axios.get(apiUrl)
       .then(response => {
